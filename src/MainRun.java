@@ -2,6 +2,7 @@
  * Created by Pape Ndour on 25/10/2017.
  */
 
+import diti4.model.Users;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -13,7 +14,7 @@ import java.io.IOException;
 public class MainRun extends Application {
 
 
-
+public static Users usersGlobal ;
     @Override
     public void start(Stage primaryStage) throws IOException {
 
@@ -27,6 +28,7 @@ public class MainRun extends Application {
         Scene scene = new Scene(root,500,350);
         primaryStage.setTitle("GESTION BANQUAIRE");
         primaryStage.setScene(scene);
+        primaryStage.centerOnScreen();
         primaryStage.centerOnScreen();
         primaryStage.show();
     }

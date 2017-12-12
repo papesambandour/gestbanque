@@ -39,7 +39,7 @@ public class ClientDOA {
 
     public ArrayList<Client> getListClient() throws Exception
     {
-        String sql="SELECT * FROM client ORDER BY nom";
+        String sql="SELECT * FROM client";
         try {
             db.myPreparedStatement(sql);
             ResultSet res = db.myPrepareExecuteQuery();
@@ -99,6 +99,7 @@ public class ClientDOA {
                 compteBanque.setTypecompte(res.getString(4));
                 compteBanque.setClient(new ClientDOA(DatabaseHelper.getInstance()).getClientById(res.getInt(5)));
                 compteBanque.setTauxrenumeration(res.getDouble(6));
+                compteBanque.setNumeroCompte(res.getString(7));
                 compteBanques.add(compteBanque);
             }
             res.close();
@@ -108,7 +109,7 @@ public class ClientDOA {
         }
     }
 
-    public int deleteAgence(int id) throws Exception {
+    public int deleteClient(int id) throws Exception {
         String sql = "DELETE FROM client WHERE id = ?";
         try {
             db.myPreparedStatement(sql);

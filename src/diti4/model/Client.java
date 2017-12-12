@@ -1,5 +1,8 @@
 package diti4.model;
 
+import diti4.dao.ClientDOA;
+import diti4.dao.DatabaseHelper;
+
 import java.util.ArrayList;
 
 public class Client {
@@ -57,11 +60,20 @@ public class Client {
         this.email = email;
     }
 
-    public ArrayList<CompteBanque> getCompteBanques() {
-        return compteBanques;
+    public ArrayList<CompteBanque> getCompteBanques() throws Exception {
+        try {
+            return new ClientDOA(DatabaseHelper.getInstance()).compteBanqueByIdClient(this.id);
+        } catch (Exception e) {
+            throw e;
+        }
     }
 
     public void setCompteBanques(ArrayList<CompteBanque> compteBanques) {
         this.compteBanques = compteBanques;
+    }
+
+    @Override
+    public String toString() {
+        return getNoms();
     }
 }

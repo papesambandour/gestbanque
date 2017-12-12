@@ -1,5 +1,6 @@
 package diti4.dao;
 
+import diti4.helper.Helper;
 import diti4.model.Client;
 import diti4.model.CompteBanque;
 
@@ -12,21 +13,23 @@ public class ComptBanqueDOA {
     {
         this.db = db ;
     }
-    public int addCompteBanque(Double solde, double decouvert,String typecompte,int idClient,double tauxrenumeration,int idagence,int iduser) throws Exception {
+    public int addCompteBanque(Double solde, double decouvert,String typecompte,int idClient,double tauxrenumeration,String numeroCompt,int idagence,int iduser) throws Exception {
         db.beginTransaction();
-        String sql="INSERT INTO comptebanque VALUES(NULL,?,?,?,?,?)";
-        String sql2 = "INSERT INTO agence_user_compte values(?,?,?)";
+        String sql="INSERT INTO comptebanque VALUES(NULL,?,?,?,?,?,?)";
+        String sql2 = "INSERT INTO agence_user_compte values(?,?,?,?)";
         try {
             db.myPreparedStatement(sql);
-            int index[]={1,2,3,4,5};
-            Object values[] = {solde,decouvert,typecompte,idClient,tauxrenumeration};
+            int index[]={1,2,3,4,5,6};
+            Object values[] = {solde,decouvert,typecompte,idClient,tauxrenumeration,numeroCompt};
             db.addParam(index,values);
             int res = db.myPrepareExecuteUpdate();
             if(res == 1)
             {
                 int idcompte = db.lastInsertId();
-                int index2[]={1,2,3};
-                Object values2[] = {idagence,iduser,idcompte};
+
+                int index2[]={1,2,3,4};
+                Object values2[] = {idagence,iduser,idcompte, Helper.currenDate()};
+                db.myPreparedStatement(sql2);
                 db.addParam(index2,values2);
                 int res2 = db.myPrepareExecuteUpdate();
                 if(res2==1)
@@ -44,7 +47,12 @@ public class ComptBanqueDOA {
             }
             return 0;
         } catch (Exception e) {
+            db.myRollback();
             throw e;
+
+        }
+        finally {
+            db.closeConnexion();
         }
     }
 
@@ -65,7 +73,7 @@ public class ComptBanqueDOA {
 
     public ArrayList<CompteBanque> getListCompteBanque() throws Exception
     {
-        String sql="SELECT * FROM comptebanque";
+        String sql="SELECT c.*, u.id,a.id FROM comptebanque c,users u, agences a ,agence_user_compte auc where auc.idagence=a.id and auc.iduser=u.id and auc.idcompte=c.id";
         try {
 
             db.myPreparedStatement(sql);
@@ -80,6 +88,9 @@ public class ComptBanqueDOA {
                 compteBanque.setTypecompte(res.getString(4));
                 compteBanque.setClient(new ClientDOA(DatabaseHelper.getInstance()).getClientById(res.getInt(5)));
                 compteBanque.setTauxrenumeration(res.getInt(6));
+                compteBanque.setNumeroCompte(res.getString(7));
+                compteBanque.setUser(new UsersDOA(DatabaseHelper.getInstance()).getUserById(res.getInt(8)));
+                compteBanque.setAgence(new AgencesDOA(DatabaseHelper.getInstance()).getAgenceById(res.getInt(9)));
 
                 compteBanques.add(compteBanque);
             }
@@ -91,7 +102,7 @@ public class ComptBanqueDOA {
     }
 
     public CompteBanque getCompteBanqueById(int id) throws Exception {
-        String sql="SELECT * FROM comptebanque where id ='" + id + "'";
+        String sql="SELECT c.*, u.id,a.id FROM comptebanque c,users u, agences a ,agence_user_compte auc where c.id =" + id + "and auc.idagence=a.id and auc.iduser=u.id and auc.idcompte=c.id";
         try {
             db.myPreparedStatement(sql);
             ResultSet res = db.myPrepareExecuteQuery();
@@ -104,6 +115,9 @@ public class ComptBanqueDOA {
                 compteBanque.setTypecompte(res.getString(4));
                 compteBanque.setClient(new ClientDOA(DatabaseHelper.getInstance()).getClientById(res.getInt(5)));
                 compteBanque.setTauxrenumeration(res.getInt(6));
+                compteBanque.setNumeroCompte(res.getString(7));
+                compteBanque.setUser(new UsersDOA(DatabaseHelper.getInstance()).getUserById(res.getInt(8)));
+                compteBanque.setAgence(new AgencesDOA(DatabaseHelper.getInstance()).getAgenceById(res.getInt(9)));
             }
             return compteBanque ;
         } catch (Exception e) {

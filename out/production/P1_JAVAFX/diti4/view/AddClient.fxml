@@ -1,14 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="diti4.controller.AddClientController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane fx:id="addClient" prefHeight="686.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diti4.controller.AddClientController">
+   <children>
+      <Label layoutX="288.0" layoutY="25.0" text="Formulaire Ajout Client" textFill="#1310bc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNoms" layoutX="201.0" layoutY="90.0" prefHeight="23.0" prefWidth="376.0" promptText="Nom Complet">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtAdresse" layoutX="201.0" layoutY="134.0" prefHeight="27.0" prefWidth="376.0" promptText="Adresse">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtTel" layoutX="201.0" layoutY="178.0" prefHeight="27.0" prefWidth="376.0" promptText="Telephone">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtEmail" layoutX="201.0" layoutY="220.0" prefHeight="27.0" prefWidth="376.0" promptText="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="valider" layoutX="201.0" layoutY="302.0" mnemonicParsing="false" onAction="#addClientClick" prefHeight="27.0" prefWidth="97.0" text="Valider" />
+      <Button fx:id="effacherChamp" layoutX="360.0" layoutY="302.0" mnemonicParsing="false" onAction="#clickeffacer" prefHeight="27.0" prefWidth="97.0" text="reset" />
+      <Button fx:id="deleteClient" disable="true" layoutX="508.0" layoutY="302.0" mnemonicParsing="false" onAction="#clientDeleteClick" prefHeight="27.0" prefWidth="97.0" text="delete" />
+      <TableView fx:id="tableViewClient" layoutY="343.0" onMouseClicked="#tableViewClickRow" prefHeight="342.0" prefWidth="770.0">
+        <columns>
+          <TableColumn fx:id="idTV" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="nomTV" prefWidth="159.0" text="Noms" />
+            <TableColumn fx:id="adresseTV" prefWidth="150.0" text="Adresse" />
+            <TableColumn fx:id="telTV" prefWidth="192.0" text="Telephone" />
+            <TableColumn fx:id="emailTV" prefWidth="193.0" text="Email" />
+        </columns>
+      </TableView>
+      <ImageView fx:id="retour" fitHeight="27.0" fitWidth="34.0" layoutX="14.0" layoutY="23.0" onMouseClicked="#retourClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/retour.jpg" />
+         </image>
+      </ImageView>
+   </children>
 </AnchorPane>
