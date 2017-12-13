@@ -60,7 +60,11 @@ public class ProfilController implements Initializable {
 
     @FXML
     void aboutclick(ActionEvent event) {
-
+        try {
+            h.setBorderPane(profil,"about.fxml",1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     Helper h = new Helper();
@@ -81,7 +85,16 @@ public class ProfilController implements Initializable {
             e.printStackTrace();
         }
     }
-
+    @FXML
+    void logOutClick(ActionEvent event)
+    {
+        Helper.CURENUSER = null ;
+        try {
+            h.redirect(profil,"FLogin.fxml");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     @FXML
     void comptebanqueClick(ActionEvent event) {
         try {

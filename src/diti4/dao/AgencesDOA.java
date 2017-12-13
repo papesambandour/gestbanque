@@ -62,7 +62,7 @@ public class AgencesDOA {
         }
     }
     public Agences getAgenceById(int id) throws Exception {
-        String sql="SELECT * FROM agences where id ='"+id +"'";
+        String sql="SELECT * FROM agences where id ="+id ;
         try {
             db.myPreparedStatement(sql);
             ResultSet res = db.myPrepareExecuteQuery();

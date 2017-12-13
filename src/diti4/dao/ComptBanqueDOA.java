@@ -26,6 +26,7 @@ public class ComptBanqueDOA {
             if(res == 1)
             {
                 int idcompte = db.lastInsertId();
+                System.out.println("ID COMPE"+idcompte);
 
                 int index2[]={1,2,3,4};
                 Object values2[] = {idagence,iduser,idcompte, Helper.currenDate()};
@@ -48,12 +49,11 @@ public class ComptBanqueDOA {
             return 0;
         } catch (Exception e) {
             db.myRollback();
+            db.endTransaction();
             throw e;
 
         }
-        finally {
-            db.closeConnexion();
-        }
+
     }
 
    /* public int updateCompteBanque(int id, nomComplet,String login,String password,String profil,int idAgence,int etat) throws Exception {

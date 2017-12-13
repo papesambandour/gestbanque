@@ -1,5 +1,7 @@
 package diti4.helper;
 
+import diti4.model.Agences;
+import diti4.model.Users;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -17,10 +19,17 @@ import java.util.Optional;
 
 public class Helper {
 
+    public static Users CURENUSER;
+    public  static Agences CURENAGENCE;
     public void redirect(Parent container, String fileFxml) throws IOException {
         String path = "/diti4/view/" + fileFxml ;
         Parent newContainer = new FXMLLoader(getClass().getResource(path)).load();
-        Scene sene = new Scene(newContainer,770,700);
+        int width = 770,height = 700;
+        if(fileFxml == "FLogin.fxml")
+        {
+            width = 500;height = 350;
+        }
+        Scene sene = new Scene(newContainer,width,height);
         Stage windows = (Stage)container.getScene().getWindow();
         windows.setScene(sene);
         windows.centerOnScreen();

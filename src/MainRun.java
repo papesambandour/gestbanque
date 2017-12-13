@@ -2,6 +2,7 @@
  * Created by Pape Ndour on 25/10/2017.
  */
 
+import diti4.helper.Helper;
 import diti4.model.Users;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -18,6 +19,7 @@ public static Users usersGlobal ;
     @Override
     public void start(Stage primaryStage) throws IOException {
 
+        Helper.CURENUSER = null;
         // StackPane root = new StackPane();
         AnchorPane root = new AnchorPane();
         FXMLLoader loader = new FXMLLoader();

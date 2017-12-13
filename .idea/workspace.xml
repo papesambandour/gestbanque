@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c09434c8-afd5-4854-8f30-83ae6b15ac40" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/MainRun.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/MainRun.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/AddCompteBanqueController.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/AddCompteBanqueController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/FLoginControler.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/FLoginControler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/ProfilController.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/ProfilController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/AgencesDOA.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/AgencesDOA.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/ComptBanqueDOA.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/ComptBanqueDOA.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/UsersDOA.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/UsersDOA.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/helper/Helper.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/helper/Helper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/model/Users.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/model/Users.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/view/addCompteBanque.fxml" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/view/addCompteBanque.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/view/profil.fxml" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/view/profil.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainRun.java" afterPath="$PROJECT_DIR$/src/MainRun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/controller/AddClientController.java" afterPath="$PROJECT_DIR$/src/diti4/controller/AddClientController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/controller/AddCompteBanqueController.java" afterPath="$PROJECT_DIR$/src/diti4/controller/AddCompteBanqueController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/controller/FLoginControler.java" afterPath="$PROJECT_DIR$/src/diti4/controller/FLoginControler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/controller/ProfilController.java" afterPath="$PROJECT_DIR$/src/diti4/controller/ProfilController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/dao/ClientDOA.java" afterPath="$PROJECT_DIR$/src/diti4/dao/ClientDOA.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/dao/AgencesDOA.java" afterPath="$PROJECT_DIR$/src/diti4/dao/AgencesDOA.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java" afterPath="$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/dao/UsersDOA.java" afterPath="$PROJECT_DIR$/src/diti4/dao/UsersDOA.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/helper/Helper.java" afterPath="$PROJECT_DIR$/src/diti4/helper/Helper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/model/Client.java" afterPath="$PROJECT_DIR$/src/diti4/model/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/model/CompteBanque.java" afterPath="$PROJECT_DIR$/src/diti4/model/CompteBanque.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/view/AddClient.fxml" afterPath="$PROJECT_DIR$/src/diti4/view/AddClient.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/view/addAgence.fxml" afterPath="$PROJECT_DIR$/src/diti4/view/addAgence.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/view/addUser.fxml" afterPath="$PROJECT_DIR$/src/diti4/view/addUser.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/model/Users.java" afterPath="$PROJECT_DIR$/src/diti4/model/Users.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/view/addCompteBanque.fxml" afterPath="$PROJECT_DIR$/src/diti4/view/addCompteBanque.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/view/profil.fxml" afterPath="$PROJECT_DIR$/src/diti4/view/profil.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,38 +34,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="projet1fx@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="projet1fx@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="projet1fx" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="projet1fx@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="projet1fx" type="e3449647:DbNodeDescriptor" />
+        <item name="agences" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="projet1fx@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="projet1fx" type="e3449647:DbNodeDescriptor" />
+        <item name="comptebanque" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AddCompteBanqueController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/diti4/controller/AddCompteBanqueController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="98" column="52" lean-forward="false" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
-              <folding>
-                <element signature="e#2939#2940#0" expanded="true" />
-                <element signature="e#2964#2965#0" expanded="true" />
-                <element signature="e#5488#5489#0" expanded="true" />
-                <element signature="e#5510#5511#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/diti4/controller/ProfilController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="175">
+              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainRun.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainRun.java">
+      <file leaf-file-name="FLoginControler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/diti4/controller/FLoginControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="366">
+              <caret line="67" column="119" lean-forward="false" selection-start-line="67" selection-start-column="119" selection-end-line="67" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -64,8 +92,18 @@
       <file leaf-file-name="ComptBanqueDOA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="269">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projet1fx.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/diti4/view/projet1fx.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -74,8 +112,28 @@
       <file leaf-file-name="Helper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/diti4/helper/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="82" column="54" lean-forward="true" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+            <state relative-caret-position="105">
+              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersDOA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/diti4/dao/UsersDOA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="106" column="19" lean-forward="false" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/diti4/model/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -84,20 +142,29 @@
       <file leaf-file-name="CompteBanque.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/diti4/model/CompteBanque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="e#1705#1706#0" expanded="true" />
-                <element signature="e#1732#1733#0" expanded="true" />
-                <element signature="e#1771#1772#0" expanded="true" />
-                <element signature="e#1803#1804#0" expanded="true" />
-                <element signature="e#1837#1838#0" expanded="true" />
-                <element signature="e#1866#1867#0" expanded="true" />
-                <element signature="e#1911#1912#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
-                <element signature="e#1993#1994#0" expanded="true" />
-                <element signature="e#2037#2038#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-375">
+              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddUserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/diti4/controller/AddUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="274" column="50" lean-forward="false" selection-start-line="274" selection-start-column="50" selection-end-line="274" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainRun.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,13 +190,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/diti4/dao/UsersDOA.java" />
-        <option value="$PROJECT_DIR$/src/diti4/controller/FLoginControler.java" />
         <option value="$PROJECT_DIR$/src/diti4/model/Agences.java" />
         <option value="$PROJECT_DIR$/src/diti4/dao/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/src/diti4/view/addCompteBanque.fxml" />
-        <option value="$PROJECT_DIR$/src/diti4/controller/ProfilController.java" />
-        <option value="$PROJECT_DIR$/src/diti4/view/profil.fxml" />
         <option value="$PROJECT_DIR$/src/diti4/view/addUser.fxml" />
         <option value="$PROJECT_DIR$/src/diti4/view/addAgence.fxml" />
         <option value="$PROJECT_DIR$/src/diti4/model/Client.java" />
@@ -137,9 +200,23 @@
         <option value="$PROJECT_DIR$/src/diti4/controller/AddClientController.java" />
         <option value="$PROJECT_DIR$/src/diti4/view/AddClient.fxml" />
         <option value="$PROJECT_DIR$/src/diti4/model/CompteBanque.java" />
-        <option value="$PROJECT_DIR$/src/MainRun.java" />
+        <option value="$PROJECT_DIR$/src/diti4/view/profil.fxml" />
+        <option value="$PROJECT_DIR$/src/diti4/view/about.fxml" />
+        <option value="$PROJECT_DIR$/src/diti4/controller/ProfilController.java" />
+        <option value="$PROJECT_DIR$/src/diti4/controller/AboutController.java" />
         <option value="$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java" />
+        <option value="$PROJECT_DIR$/src/diti4/view/img/projet1fx (1).sql" />
+        <option value="$PROJECT_DIR$/src/diti4/view/img/scrypte.sql" />
+        <option value="$PROJECT_DIR$/src/diti4/view/img/projet1fx.sql" />
+        <option value="$PROJECT_DIR$/src/diti4/view/projet1fx (1).sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/09d81585-ef59-4892-8ddb-8b74a38af642/console.sql" />
+        <option value="$PROJECT_DIR$/src/diti4/dao/AgencesDOA.java" />
+        <option value="$PROJECT_DIR$/src/MainRun.java" />
+        <option value="$PROJECT_DIR$/src/diti4/dao/UsersDOA.java" />
+        <option value="$PROJECT_DIR$/src/diti4/controller/AddUserController.java" />
+        <option value="$PROJECT_DIR$/src/diti4/model/Users.java" />
         <option value="$PROJECT_DIR$/src/diti4/helper/Helper.java" />
+        <option value="$PROJECT_DIR$/src/diti4/controller/FLoginControler.java" />
         <option value="$PROJECT_DIR$/src/diti4/controller/AddCompteBanqueController.java" />
       </list>
     </option>
@@ -172,7 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,13 +303,21 @@
               <item name="diti4" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="P1_JAVAFX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P1_JAVAFX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="diti4" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,6 +327,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/diti4/view" />
+      <recent name="$PROJECT_DIR$/src/diti4/view/img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -368,31 +461,36 @@
       <option name="presentableId" value="Default" />
       <updated>1513033838625</updated>
       <workItem from="1513033841043" duration="12343000" />
-      <workItem from="1513075336010" duration="21557000" />
+      <workItem from="1513075336010" duration="21833000" />
+      <workItem from="1513109875068" duration="611000" />
+      <workItem from="1513116683588" duration="9672000" />
+      <workItem from="1513169032924" duration="7688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33900000" />
+    <option name="totallyTimeSpent" value="52147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28482586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28482586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -418,6 +516,70 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/diti4/helper/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="82" column="54" lean-forward="false" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/model/CompteBanque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/controller/AddCompteBanqueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/controller/ProfilController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/helper/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="82" column="54" lean-forward="true" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/model/CompteBanque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/diti4/controller/AddUserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -439,7 +601,7 @@
         <state relative-caret-position="1110">
           <caret line="74" column="50" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="74" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#1518#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -456,9 +618,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2145">
           <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -483,38 +643,9 @@
         <state relative-caret-position="645">
           <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#552#553#0" expanded="false" />
-            <element signature="e#577#578#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
-            <element signature="e#669#670#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#736#737#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#802#803#0" expanded="false" />
-            <element signature="e#832#833#0" expanded="false" />
-            <element signature="e#878#879#0" expanded="false" />
-            <element signature="e#916#917#0" expanded="false" />
-            <element signature="e#946#947#0" expanded="false" />
-            <element signature="e#972#973#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1040#1041#0" expanded="false" />
-            <element signature="e#1072#1073#0" expanded="false" />
-            <element signature="e#1100#1101#0" expanded="false" />
-            <element signature="e#1142#1143#0" expanded="false" />
-            <element signature="e#1176#1177#0" expanded="false" />
-            <element signature="e#1504#1505#0" expanded="false" />
-            <element signature="e#1554#1555#0" expanded="false" />
+            <element signature="e#1600#1601#0" expanded="false" />
+            <element signature="e#1632#1633#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/controller/AddUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,37 +665,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/controller/FLoginControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/diti4/view/addCompteBanque.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/view/addAgence.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+      <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/view/addAgence.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -575,11 +687,11 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/view/addUser.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/view/addUser.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -592,6 +704,9 @@
             <marker date="1513082707263" expanded="true" signature="2893:3379" ph="..." />
           </folding>
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/diti4/controller/AddAgenceController.java">
@@ -607,20 +722,9 @@
         <state relative-caret-position="125">
           <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="24" />
           <folding>
-            <element signature="e#1600#1601#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="false" />
+            <element signature="e#1632#1633#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/view/profil.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,15 +733,12 @@
         <state relative-caret-position="258">
           <caret line="111" column="27" lean-forward="false" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
           <folding>
-            <element signature="e#1518#1526#0" expanded="true" />
+            <element signature="e#1518#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/diti4/view/AddClient.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="41" column="105" lean-forward="false" selection-start-line="41" selection-start-column="105" selection-end-line="41" selection-end-column="105" />
@@ -660,95 +761,234 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/view/profil.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/view/about.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1513120079124" expanded="true" signature="2193:2206" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/controller/AboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/diti4/controller/AddClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4694#4695#0" expanded="true" />
-            <element signature="e#4716#4717#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1875">
+          <caret line="146" column="27" lean-forward="false" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/controller/ProfilController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9d453149-a293-40d1-bed2-6644dd2a1614/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/331d0b70/09d81585-ef59-4892-8ddb-8b74a38af642/projet1fx.projet1fx">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/view/img/scrypte.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/09d81585-ef59-4892-8ddb-8b74a38af642.SCHEMA:projet1fx">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>09d81585-ef59-4892-8ddb-8b74a38af642.SCHEMA:projet1fx</OriginalElement>
+          <nodes>
+            <node x="" y="">09d81585-ef59-4892-8ddb-8b74a38af642.TABLE:projet1fx.comptebanque</node>
+            <node x="" y="">09d81585-ef59-4892-8ddb-8b74a38af642.TABLE:projet1fx.agences</node>
+            <node x="" y="">09d81585-ef59-4892-8ddb-8b74a38af642.TABLE:projet1fx.agence_user_compte</node>
+            <node x="" y="">09d81585-ef59-4892-8ddb-8b74a38af642.TABLE:projet1fx.users</node>
+            <node x="" y="">09d81585-ef59-4892-8ddb-8b74a38af642.TABLE:projet1fx.client</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="419.5" y="135.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/view/img/projet1fx.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/09d81585-ef59-4892-8ddb-8b74a38af642/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="129" lean-forward="false" selection-start-line="0" selection-start-column="129" selection-end-line="0" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/331d0b70/09d81585-ef59-4892-8ddb-8b74a38af642/projet1fx.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/331d0b70/09d81585-ef59-4892-8ddb-8b74a38af642/projet1fx.agences">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/331d0b70/09d81585-ef59-4892-8ddb-8b74a38af642/projet1fx.comptebanque">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/331d0b70/09d81585-ef59-4892-8ddb-8b74a38af642/projet1fx.agence_user_compte">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/dao/AgencesDOA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="64" column="57" lean-forward="false" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="165">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/diti4/dao/UsersDOA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="117" column="41" lean-forward="false" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        <state relative-caret-position="175">
+          <caret line="106" column="19" lean-forward="false" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/dao/AgencesDOA.java">
+    <entry file="file://$PROJECT_DIR$/src/diti4/controller/AddUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        <state relative-caret-position="163">
+          <caret line="274" column="50" lean-forward="false" selection-start-line="274" selection-start-column="50" selection-end-line="274" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/model/CompteBanque.java">
+    <entry file="file://$PROJECT_DIR$/src/diti4/model/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/diti4/helper/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="82" column="54" lean-forward="true" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+        <state relative-caret-position="105">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/controller/FLoginControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="67" column="119" lean-forward="false" selection-start-line="67" selection-start-column="119" selection-end-line="67" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/model/CompteBanque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/diti4/controller/AddCompteBanqueController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="98" column="52" lean-forward="false" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
-          <folding>
-            <element signature="e#2939#2940#0" expanded="true" />
-            <element signature="e#2964#2965#0" expanded="true" />
-            <element signature="e#5488#5489#0" expanded="true" />
-            <element signature="e#5510#5511#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/controller/ProfilController.java">
+    <entry file="file://$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state relative-caret-position="269">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/view/projet1fx.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="16" />
           <folding />
         </state>
       </provider>

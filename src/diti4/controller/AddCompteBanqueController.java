@@ -16,14 +16,19 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class AddCompteBanqueController implements Initializable{
 
+    @FXML
+    private AnchorPane addCompteBanque;
     @FXML
     private ComboBox<String> cbxTypeCompte;
 
@@ -76,18 +81,34 @@ public class AddCompteBanqueController implements Initializable{
     @FXML
     private Button effacherChamp;
 
+    @FXML
+    private ImageView retour;
+
 
     @FXML
     private TableColumn<CompteBanque, Users> userCreatTV;
 
     ClientDOA clientDOA =  new ClientDOA(DatabaseHelper.getInstance());
     ComptBanqueDOA comptBanqueDOA = new ComptBanqueDOA(DatabaseHelper.getInstance());
-    int idAgence = 5,idUser=9 ;
+    int idAgence = Helper.CURENAGENCE.getId() ,idUser= Helper.CURENUSER.getId() ;
+    Helper helper =  new Helper();
+
+    @FXML
+    void retourClick(MouseEvent event) {
+        try {
+            helper.redirect(addCompteBanque,"profil.fxml");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     @FXML
     void addCompteClick(ActionEvent event) {
         try {
-            int res = comptBanqueDOA.addCompteBanque(Double.parseDouble(txtSolde.getText()),cbxDecouvert.getSelectionModel().getSelectedItem(),cbxTypeCompte.getSelectionModel().getSelectedItem(),cbxClient.getSelectionModel().getSelectedItem().getId(),cbxTauxRenu.getSelectionModel().getSelectedItem(),txtNumcompt.getText(),idAgence,idUser);
+            int res = comptBanqueDOA.addCompteBanque(Double.parseDouble(txtSolde.getText()),
+                    cbxDecouvert.getSelectionModel().getSelectedItem(),cbxTypeCompte.getSelectionModel().getSelectedItem(),
+                    cbxClient.getSelectionModel().getSelectedItem().getId(),cbxTauxRenu.getSelectionModel().getSelectedItem(),
+                    txtNumcompt.getText(),idAgence,idUser);
             if(res==1)
             {
                 Helper.valide("Compte ouvert avec succes");
@@ -116,8 +137,8 @@ public class AddCompteBanqueController implements Initializable{
         txtSolde.setText("");
         txtNumcompt.setText("");
         cbxTypeCompte.getSelectionModel().clearSelection();
-        cbxDecouvert.getSelectionModel().clearSelection();
-        cbxTauxRenu.getSelectionModel().clearSelection();
+        cbxDecouvert.setValue(null);
+        cbxTauxRenu.setValue(null);
         cbxClient.getSelectionModel().clearSelection();
 
 
@@ -128,13 +149,13 @@ public class AddCompteBanqueController implements Initializable{
             if(cbxTypeCompte.getSelectionModel().getSelectedItem()=="simple")
             {
                 cbxDecouvert.setValue(50000.0);
-                cbxTauxRenu.setValue(0.06);
+                cbxTauxRenu.setValue(6.0);
                 txtSolde.setText("10000.0");
 
             }else if(cbxTypeCompte.getSelectionModel().getSelectedItem()=="kheweul")
             {
                 cbxDecouvert.setValue(100000.0);
-                cbxTauxRenu.setValue(0.11);
+                cbxTauxRenu.setValue(11.0);
                 txtSolde.setText("50000.0");
             }
     }
@@ -153,11 +174,8 @@ public class AddCompteBanqueController implements Initializable{
     {
 
         try {
-            cbxTypeCompte.getItems().removeAll();
-            cbxTypeCompte.getItems().addAll("simple","kheweul");
-            ArrayList<Client> clients = clientDOA.getListClient();
-            cbxClient.getItems().addAll(clients);
-            cbxClient.setValue(clients.get(0));
+
+
 
             /////table view
             ArrayList<CompteBanque> compteBanques = comptBanqueDOA.getListCompteBanque();
@@ -178,6 +196,16 @@ public class AddCompteBanqueController implements Initializable{
     }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        //cbxTypeCompte.getItems().removeAll();
+        ArrayList<Client> clients = null;
+        try {
+            clients = clientDOA.getListClient();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        cbxClient.getItems().addAll(clients);
+        cbxClient.setValue(clients.get(0));
+        cbxTypeCompte.getItems().addAll("simple","kheweul");
         init();
     }
 }

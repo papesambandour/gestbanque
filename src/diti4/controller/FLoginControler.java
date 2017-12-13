@@ -63,6 +63,9 @@ public class FLoginControler implements Initializable {
                 Helper h = new Helper();
                 if(user.getEtat() == 1)
                 {
+                    Helper.CURENUSER = user ;
+                    Helper.CURENAGENCE = userDoa.getAgenceByIdUser(user.getId());
+                    System.out.println("ID USER :" + Helper.CURENUSER.getId() +" ID AGENCE "+Helper.CURENAGENCE.getId());
                     h.redirect(contenForm,"profil.fxml");
                 }
                 else

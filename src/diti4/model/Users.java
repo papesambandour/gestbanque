@@ -69,13 +69,13 @@ public class Users {
 
     public void setProfile(String profile) { this.profile = profile; }
 
-    public Agences getAgence() {
-        try {
+    public Agences getAgence(){
+        return agence;
+        /*try {
             return new UsersDOA(DatabaseHelper.getInstance()).getAgenceByIdUser(this.id);
         } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
+            throw e;
+        }*/
     }
 
     public void setAgence(Agences agence) { this.agence = agence; }

@@ -6,11 +6,12 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="685.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diti4.controller.AddCompteBanqueController">
+<AnchorPane fx:id="addCompteBanque" prefHeight="685.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diti4.controller.AddCompteBanqueController">
    <children>
       <Label layoutX="214.0" layoutY="14.0" text="Formulaire Ouverture Compte Banquaire" textFill="#1fcd62">
          <font>
@@ -77,5 +78,10 @@
       <Button fx:id="addCompte" layoutX="150.0" layoutY="323.0" mnemonicParsing="false" onAction="#addCompteClick" prefHeight="27.0" prefWidth="117.0" text="Valider" />
       <Button fx:id="delete" disable="true" layoutX="509.0" layoutY="323.0" mnemonicParsing="false" onAction="#deleteClick" prefHeight="27.0" prefWidth="117.0" text="ButtDeleteon" />
       <Button fx:id="effacherChamp" layoutX="337.0" layoutY="323.0" mnemonicParsing="false" onAction="#effacerChampClick" prefHeight="27.0" prefWidth="117.0" text="Reset" />
+      <ImageView fx:id="retour" fitHeight="27.0" fitWidth="34.0" layoutX="24.0" layoutY="26.0" onMouseClicked="#retourClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/retour.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

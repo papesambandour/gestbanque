@@ -13,11 +13,12 @@ public class UsersDOA {
         this.db = db ;
     }
     public int addUser(String nomComplet,String login,String password,String profil,int idAgence) throws Exception {
-        String sql="INSERT INTO users VALUES(NULL,?,?,?,?,?)";
+        String sql="INSERT INTO users VALUES(NULL,?,?,?,?,?,?)";
         try {
             db.myPreparedStatement(sql);
-            int index[]={1,2,3,4,5};
-            Object values[] = {nomComplet,login,password,profil,idAgence};
+            int index[]={1,2,3,4,5,6};
+            int etat = 1 ;//etat =0 par defaut
+            Object values[] = {nomComplet,login,password,profil,etat,idAgence};
             db.addParam(index,values);
             return db.myPrepareExecuteUpdate();
         } catch (Exception e) {
@@ -149,9 +150,10 @@ public class UsersDOA {
             Object[] values = {login,password};
             db.addParam(inex,values);
             ResultSet res= db.myPrepareExecuteQuery();
+            Users u;
             if(res.first())
             {
-                Users u = new Users();
+                u = new Users();
                 u.setId(res.getInt(1));
                 u.setNoms(res.getString(2));
                 u.setLogin(res.getString(3));
