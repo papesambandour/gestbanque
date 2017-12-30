@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c09434c8-afd5-4854-8f30-83ae6b15ac40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/MainRun.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/MainRun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/AddCompteBanqueController.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/AddCompteBanqueController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/FLoginControler.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/FLoginControler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/ProfilController.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/controller/ProfilController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/AgencesDOA.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/AgencesDOA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/ComptBanqueDOA.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/ComptBanqueDOA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/UsersDOA.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/dao/UsersDOA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/helper/Helper.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/helper/Helper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/model/Users.class" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/model/Users.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/view/addCompteBanque.fxml" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/view/addCompteBanque.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/view/profil.fxml" afterPath="$PROJECT_DIR$/out/production/P1_JAVAFX/diti4/view/profil.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainRun.java" afterPath="$PROJECT_DIR$/src/MainRun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/controller/AddCompteBanqueController.java" afterPath="$PROJECT_DIR$/src/diti4/controller/AddCompteBanqueController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/controller/FLoginControler.java" afterPath="$PROJECT_DIR$/src/diti4/controller/FLoginControler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/controller/ProfilController.java" afterPath="$PROJECT_DIR$/src/diti4/controller/ProfilController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/dao/AgencesDOA.java" afterPath="$PROJECT_DIR$/src/diti4/dao/AgencesDOA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java" afterPath="$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/dao/UsersDOA.java" afterPath="$PROJECT_DIR$/src/diti4/dao/UsersDOA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/helper/Helper.java" afterPath="$PROJECT_DIR$/src/diti4/helper/Helper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/model/Users.java" afterPath="$PROJECT_DIR$/src/diti4/model/Users.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/view/addCompteBanque.fxml" afterPath="$PROJECT_DIR$/src/diti4/view/addCompteBanque.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/diti4/view/profil.fxml" afterPath="$PROJECT_DIR$/src/diti4/view/profil.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,21 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComptBanqueDOA.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ComptBanqueDOA.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
               <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projet1fx.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/diti4/view/projet1fx.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -464,16 +432,15 @@
       <workItem from="1513075336010" duration="21833000" />
       <workItem from="1513109875068" duration="611000" />
       <workItem from="1513116683588" duration="9672000" />
-      <workItem from="1513169032924" duration="7688000" />
+      <workItem from="1513169032924" duration="7983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52147000" />
+    <option name="totallyTimeSpent" value="52442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -483,9 +450,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28482586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28482586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -977,18 +944,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/diti4/view/projet1fx.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diti4/dao/ComptBanqueDOA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
