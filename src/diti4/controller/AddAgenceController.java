@@ -181,8 +181,9 @@ public class AddAgenceController implements Initializable{
     @FXML
     void tableviewClick(MouseEvent event) {
 
-        TableView.TableViewSelectionModel<Agences> row = agenceTableView.getSelectionModel();
-        Agences selectedAgence = row.getSelectedItem();
+       // TableView.TableViewSelectionModel<Agences> row = agenceTableView.getSelectionModel();
+       // Agences selectedAgence = row.getSelectedItem();
+        Agences selectedAgence = agenceTableView.getSelectionModel().getSelectedItem();
         nomAgence.setText(selectedAgence.getNom());
         codeAgence.setText(selectedAgence.getCode()+"");
         telAgence.setText(selectedAgence.getTel());

@@ -83,7 +83,8 @@ public class FLoginControler implements Initializable {
 
         }
         catch (Exception e){
-            e.printStackTrace();
+            Helper.error("Echec Connexion Réessayer ");
+            //e.printStackTrace();
         }
 
 

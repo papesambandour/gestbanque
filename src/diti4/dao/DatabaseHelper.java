@@ -141,6 +141,7 @@ public class DatabaseHelper {
     public void beginTransaction() throws Exception
     {
         try{
+            getConnexion();
             cnx.setAutoCommit(false);
         }
         catch (Exception e)
@@ -152,6 +153,7 @@ public class DatabaseHelper {
     public void endTransaction() throws Exception
     {
         try{
+            getConnexion();
             cnx.setAutoCommit(true);
         }
         catch (Exception e)
